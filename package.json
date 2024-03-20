@@ -1,0 +1,26 @@
+{
+  "name": "purpluis-white-dark",
+  "displayName": "PurpluisWhite Dark Theme",
+  "description": "A simple purple border dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "publisher": "ishanshre",
+	"author": {
+		"name": "ishanshre",
+    "link": "https://github.com/ishanshre"
+	},
+  "contributes": {
+    "themes": [
+      {
+        "label": "purplis-border-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purplis-border-dark-color-theme.json"
+      }
+    ]
+  }
+}
